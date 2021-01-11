@@ -3,7 +3,6 @@ import path from 'path';
 
 'database/index.js'
 
-// Utilizar o SQLite
 const connection = knex({
   client: 'sqlite3',
   connection: {

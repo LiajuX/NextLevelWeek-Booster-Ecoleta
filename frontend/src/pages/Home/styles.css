@@ -1,19 +1,20 @@
 #page-home {
-  height: 100vh;
+  height: 100vh; 
 
-  background: url('../../assets/home-background.svg') no-repeat 650px bottom;
+  background: url('../../assets/home-background.svg') no-repeat 600px bottom;
 }
 
 #page-home .content {
-  width: 100%;
-  height: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 30px;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+  
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 #page-home .content header {
@@ -22,61 +23,67 @@
 
 #page-home .content main {
   flex: 1;
-  max-width: 560px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
+  max-width: 560px;
 }
 
 #page-home .content main h1 {
-  font-size: 54px;
   color: var(--title-color);
+  font-size: 54px;
 }
 
 #page-home .content main p {
-  font-size: 24px;
   margin-top: 24px;
+  
+  font-size: 24px;
   line-height: 38px;
 }
 
 #page-home .content main a {
-  width: 100%;
-  max-width: 360px;
-  height: 72px;
-  background: var(--primary-color);
-  border-radius: 8px;
-  text-decoration: none;
-
   display: flex;
   align-items: center;
   overflow: hidden;
 
+  width: 100%;
+  max-width: 360px;
+  height: 72px;
+
+  background: var(--primary-color);
+  
   margin-top: 40px;
+  border-radius: 8px;
+  
+  text-decoration: none;
 }
 
 #page-home .content main a span {
   display: block;
-  background: rgba(0, 0, 0, 0.08);
-  width: 72px;
-  height: 72px;
-
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  width: 72px;
+  height: 72px;
+  
+  background: rgba(0, 0, 0, 0.08);
+  
   transition: background-color 0.2s;
 }
 
 #page-home .content main a span svg {
-  color: #FFF;
   width: 20px;
   height: 20px;
+  
+  color: #FFF;
 }
 
 #page-home .content main a strong {
   flex: 1;
-  text-align: center;
   color: #FFF;
+  text-align: center;
 }
 
 #page-home .content main a:hover {

@@ -1,41 +1,80 @@
-import React from 'react';
-import { Feather as Icon } from '@expo/vector-icons';
-import { View, ImageBackground, Image, Text, StyleSheet } from 'react-native';
+import React, { useState } from 'react';
+import { 
+  View, 
+  ImageBackground, 
+  Image, 
+  Text, 
+  StyleSheet, 
+  TextInput,
+  KeyboardAvoidingView,
+  Platform,
+} from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
+import { Feather as Icon } from '@expo/vector-icons';
 
 const Home = () => {
+  const [uf, setUf] = useState('');
+  const [city, setCity] =useState('');
+
   const navigation = useNavigation();
 
   function handleNavigateToPoints() {
-    navigation.navigate('Points');
+    navigation.navigate('Points', {
+      uf,
+      city
+    });
   }
 
   return ( 
-    <ImageBackground 
-      source={require('../../assets/home-background.png')} 
-      style={styles.container}
-      imageStyle={{ width: 274, height: 368 }}
-    > 
-      <View style={styles.main}>
-        <Image source={require('../../assets/logo.png')} />
-        <Text style={styles.title}>Seu marketplace de coleta de resíduos</Text>
-        <Text style={styles.description}>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</Text>
-      </View>
-
-      <View style={styles.footer}>
-        <RectButton style={styles.button} onPress={handleNavigateToPoints}>
-          <View style={styles.buttonIcon}>
-            <Text>
-              <Icon name="arrow-right" color="#FFF" size={24} />
-            </Text>
+    <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+      <ImageBackground 
+        source={require('../../assets/home-background.png')} 
+        style={styles.container}
+        imageStyle={{ width: 274, height: 368 }}
+      > 
+        <View style={styles.main}>
+          <Image source={require('../../assets/logo.png')} />
+          
+          <View>
+            <Text style={styles.title}>Seu marketplace de coleta de resíduos</Text>
+            <Text style={styles.description}>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</Text>
           </View>
-          <Text style={styles.buttonText}>
-            Entrar
-          </Text>
-        </RectButton>
-      </View>
-    </ImageBackground>
+        </View>
+
+        <View style={styles.footer}>
+          <TextInput 
+            style={styles.input}
+            placeholder="Digite a UF"
+            value={uf}
+            onChangeText={setUf}
+            maxLength={2}
+            autoCapitalize="characters"
+            autoCorrect={false}
+          />
+
+          <TextInput 
+            style={styles.input}
+            placeholder="Digite a cidade"
+            value={city}
+            onChangeText={setCity}
+            autoCorrect={false}
+          />
+
+          <RectButton style={styles.button} onPress={handleNavigateToPoints}>
+            <View style={styles.buttonIcon}>
+              <Text>
+                <Icon name="arrow-right" color="#FFF" size={24} />
+              </Text>
+            </View>
+
+            <Text style={styles.buttonText}>
+              Entrar
+            </Text>
+          </RectButton>
+        </View>
+      </ImageBackground>
+    </KeyboardAvoidingView>
   );
 };
 
@@ -51,19 +90,24 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    color: '#322153',
-    fontSize: 32,
-    fontFamily: 'Ubuntu_700Bold',
     maxWidth: 260,
     marginTop: 64,
+
+    color: '#322153',
+    
+    fontSize: 32,
+    fontFamily: 'Ubuntu_700Bold',
   },
 
   description: {
-    color: '#6C6C80',
-    fontSize: 16,
-    marginTop: 16,
-    fontFamily: 'Roboto_400Regular',
     maxWidth: 260,
+
+    marginTop: 16,
+    
+    color: '#6C6C80',
+    
+    fontSize: 16,
+    fontFamily: 'Roboto_400Regular',
     lineHeight: 24,
   },
 
@@ -73,38 +117,52 @@ const styles = StyleSheet.create({
 
   input: {
     height: 60,
-    backgroundColor: '#FFF',
-    borderRadius: 10,
+    
     marginBottom: 8,
     paddingHorizontal: 24,
+    borderRadius: 10,
+    
+    backgroundColor: '#FFF',
+
     fontSize: 16,
   },
 
   button: {
-    backgroundColor: '#34CB79',
-    height: 60,
     flexDirection: 'row',
-    borderRadius: 10,
-    overflow: 'hidden',
     alignItems: 'center',
-    marginTop: 8,
+    
+    height: 60,
+    
+    marginTop: 24,
+    borderRadius: 10,
+    
+    backgroundColor: '#34CB79',
+    
+    overflow: 'hidden',
   },
 
   buttonIcon: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    
     height: 60,
     width: 60,
+    
+    borderTopLeftRadius: 10,
+    borderBottomLeftRadius: 10,
+    
     backgroundColor: 'rgba(0, 0, 0, 0.1)',
-    justifyContent: 'center',
-    alignItems: 'center'
   },
 
   buttonText: {
     flex: 1,
     justifyContent: 'center',
-    textAlign: 'center',
+
     color: '#FFF',
-    fontFamily: 'Roboto_500Medium',
+    
+    textAlign: 'center',
     fontSize: 16,
+    fontFamily: 'Roboto_500Medium',
   }
 });
 
