@@ -161,6 +161,6 @@ Now, you just have to point your smartphone's camera to scan the QR Code display
 
 ---
 
-<h3 align="center">
-  Made by Júlia Brito (LiajuX)
+<h3 align="center" >
+  Made by Júlia Brito(LiajuX)
 </h3>
