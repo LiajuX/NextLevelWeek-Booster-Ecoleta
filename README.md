@@ -41,7 +41,7 @@ The Next Level Week is a project created by [RocketSeat](https://rocketseat.com.
 
 This new model differs from the other by having two versions, the Starter, designed for beginners, and the Booster, with the more advanced content.
 
-This repository contains the **Booster** version of the NLW. To check the **Starter** version, access the repository **<a href="https://github.com/RBritoX/NextLevelWeek-Starter-Ecoleta">here</a>**.
+This repository contains the **Booster** version of the NLW. To check the **Starter** version, access the repository **<a href="https://github.com/LiajuX/NextLevelWeek-Starter-Ecoleta">here</a>**.
 
 <br>
 
