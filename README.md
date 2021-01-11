@@ -123,6 +123,8 @@ $ yarn
 $ yarn dev
 ````
 
+<br>
+
 💻 To run the **Front-End**, in another terminal tab, execute the following commands:
 
 ````zsh
@@ -136,6 +138,8 @@ $ yarn
 $ yarn start
 ````
 The `http://localhost:3000/` will open automatically.
+
+<br>
 
 📱 To run **Mobile**, download the Expo app on your smartphone. ([Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR) or [iOS](https://apps.apple.com/br/app/expo-client/id982107779)).
 <br>Now, on another terminal tab, run the following commands:
