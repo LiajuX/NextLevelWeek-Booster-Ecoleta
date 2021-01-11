@@ -60,8 +60,10 @@ This repository contains the **Booster** version of the NLW. To check the **Star
 
 This project was developed during the week of World Environment Day. Its purpose is to build a bridge between places that collect organic and/or inorganic waste for recycling and people who need to dispose of these materials. 
 
-![Home web](https://user-images.githubusercontent.com/53796370/104236852-ebbd8c80-5435-11eb-912b-7daa197214a5.png)
-![gif](https://user-images.githubusercontent.com/53796370/104235768-350cdc80-5434-11eb-9ac2-4d87500302f7.gif)
+<div align="center">
+  ![Home web](https://user-images.githubusercontent.com/53796370/104236852-ebbd8c80-5435-11eb-912b-7daa197214a5.png)
+  ![gif](https://user-images.githubusercontent.com/53796370/104235768-350cdc80-5434-11eb-9ac2-4d87500302f7.gif)
+</div>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/53796370/104236843-e9f3c900-5435-11eb-98ff-6743cc812b1d.png" alt="login" width="250">
