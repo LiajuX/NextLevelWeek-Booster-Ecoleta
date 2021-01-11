@@ -64,7 +64,7 @@ This project was developed during the week of World Environment Day. Its purpose
 ![gif](https://user-images.githubusercontent.com/53796370/104235768-350cdc80-5434-11eb-9ac2-4d87500302f7.gif)
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/53796370/104236843-e9f3c900-5435-11eb-98ff-6743cc812b1d.png" alt="login" width="280">
-  <img src="https://user-images.githubusercontent.com/53796370/104236838-e8c29c00-5435-11eb-8f0d-212ab7aa3731.png" alt="home" width="280">
-  <img src="https://user-images.githubusercontent.com/53796370/104236832-e6f8d880-5435-11eb-8bc7-65c03d5ad88c.png" alt="details" width="280">
+  <img src="https://user-images.githubusercontent.com/53796370/104236843-e9f3c900-5435-11eb-98ff-6743cc812b1d.png" alt="login" width="250">
+  <img src="https://user-images.githubusercontent.com/53796370/104236838-e8c29c00-5435-11eb-8f0d-212ab7aa3731.png" alt="home" width="250">
+  <img src="https://user-images.githubusercontent.com/53796370/104236832-e6f8d880-5435-11eb-8bc7-65c03d5ad88c.png" alt="details" width="250">
 </div>
