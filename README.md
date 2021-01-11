@@ -68,3 +68,95 @@ This project was developed during the week of World Environment Day. Its purpose
   <img src="https://user-images.githubusercontent.com/53796370/104236838-e8c29c00-5435-11eb-8f0d-212ab7aa3731.png" alt="home" width="250">
   <img src="https://user-images.githubusercontent.com/53796370/104236832-e6f8d880-5435-11eb-8bc7-65c03d5ad88c.png" alt="details" width="250">
 </div>
+
+## 🤖 Back-End
+A REST API built with Node.js and TypeScript.
+
+### 🛠 Technologies
+- **[Node.js](https://nodejs.org/en/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+- *[Express](https://expressjs.com/pt-br/)*
+- *[Knex.js](http://knexjs.org/)*
+- *[Nodemon](https://nodemon.io/)*
+- *[Celebrate](https://github.com/arb/celebrate)*
+
+<br>
+
+## 💻 Front-End
+Developed with React.js and TypeScript.
+
+### 🛠 Technologies
+- **[React.js](https://reactjs.org/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+- *[React Router DOM](https://reacttraining.com/react-router/web/guides/quick-start)*
+- *[React Icons](https://react-icons.netlify.com/#/)*
+- *[Axios](https://nodemon.io/)*
+
+<br>
+
+## 📱 Mobile
+Developed with React Native, Expo, and TypeScript.
+
+### 🛠 Technologies
+- **[React Native](https://reactnative.dev/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+- *[Expo](https://expo.io/)*
+- *[React Navigation](https://reactnavigation.org/)*
+- *[React-Native-Vector-Icons](https://github.com/oblador/react-native-vector-icons)*
+
+<br>
+
+## 🏁 Starting the project:
+
+Clone the project: `git clone https://github.com/LiajuX/NextLevelWeek-Booster-Ecoleta`
+
+🤖 To run the **Back-End** you shall open the terminal and run the following commands.:
+
+````zsh
+# to enter the Back-End folder
+$ cd backend
+
+# to download the dependencies
+$ yarn
+
+# to start the application on port 3333
+$ yarn dev
+````
+
+💻 To run the **Front-End**, in another terminal tab, execute the following commands:
+
+````zsh
+# to enter the Front-End folder
+$ cd frontend
+
+# to download the dependencies
+$ yarn
+
+# to start the application on port 3000
+$ yarn start
+````
+The `http://localhost:3000/` will open automatically.
+
+📱 To run **Mobile**, download the Expo app on your smartphone. ([Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR) or [iOS](https://apps.apple.com/br/app/expo-client/id982107779)).
+<br>Now, on another terminal tab, run the following commands:
+
+````zsh
+# to enter the Mobile folder
+$ cd mobile
+
+# to download the dependencies
+$ yarn
+
+# for Android
+$ yarn android
+
+# for iOS
+$ yarn ios
+````
+Now, you just have to point your smartphone's camera to scan the QR Code displayed on the terminal or in the browser that will open to open the application in Expo.
+
+---
+
+<h3 align="center">
+  Made by Júlia Brito (LiajuX)
+</h3>
