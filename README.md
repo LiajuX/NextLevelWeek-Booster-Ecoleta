@@ -110,6 +110,10 @@ Developed with React Native, Expo, and TypeScript.
 
 Clone the project: `git clone https://github.com/LiajuX/NextLevelWeek-Booster-Ecoleta`
 
+❗ **NOTE:** If you don't have yarn installed, use npm instead.
+
+<br>
+
 🤖 To run the **Back-End** you shall open the terminal and run the following commands.:
 
 ````zsh
