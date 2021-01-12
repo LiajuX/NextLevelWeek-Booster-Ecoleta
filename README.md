@@ -48,11 +48,11 @@ This repository contains the **Booster** version of the NLW. To check the **Star
 **🎓  Instructor: [Diego Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/)**<br>
 **🎨  Layout made in [Figma](https://www.figma.com/) by [Tiago Luchtenberg](https://www.linkedin.com/in/tiago-luchtenberg-0b9a3b97/)**<br>
 
-- [X] **01/06/2020** - Introduction
-- [X] **02/06/2020** - Back-End
-- [X] **03/06/2020** - Front-End
-- [X] **04/06/2020** - Mobile
-- [X] **05/06/2020** - Advanced Features
+- [X] **01/06/2020** - Accelerating your evolution (**Introduction**)
+- [X] **02/06/2020** - Looking at opportunities (**Back-End**)
+- [X] **03/06/2020** - The stack choice (**Front-End**)
+- [X] **04/06/2020** - Up to 2 years in 2 months (**Mobile**)
+- [X] **05/06/2020** - The extra mile (**Advanced Features**)
 
 <br> 
 
