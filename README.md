@@ -108,7 +108,7 @@ Developed with React Native, Expo, and TypeScript.
 
 ## 🏁 Starting the project:
 
-Clone the project: `git clone https://github.com/LiajuX/NextLevelWeek-Booster-Ecoleta`
+Start by cloning the project: `git clone https://github.com/LiajuX/NextLevelWeek-Booster-Ecoleta`
 
 ❗ **NOTE:** If you don't have yarn installed, use npm instead.
 
