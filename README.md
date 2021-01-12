@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./frontend/src/assets/logo.svg" alt="Ecoleta" width="400px">
+  <img src="./frontend/src/assets/logo.svg" alt="Ecoleta" width="450px">
 </h1>
 
 <p align="center">
