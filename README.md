@@ -37,7 +37,7 @@
 <br>
 
 ## 🚀 Next Level Week #01 - Ecoleta  
-The Next Level Week is a project created by [RocketSeat](https://rocketseat.com.br/) to replace the Omnistack Week. The goal is to develop a complete application in a week.
+The Next Level Week is a project created by [RocketSeat](https://rocketseat.com.br/) to replace the OmniStack Week. The goal is to develop a complete application in a week.
 
 This new model differs from the other by having two versions, the Starter, designed for beginners, and the Booster, with the more advanced content.
 
